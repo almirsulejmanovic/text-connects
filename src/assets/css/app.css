@@ -1,0 +1,59 @@
+.app {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 103px;
+}
+
+.title {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #1A1A1A;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.image {
+  height: 258px;
+  width: 258px;
+  margin: auto;
+  display: block;
+}
+
+.link {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  background-color: #69A8E8;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  max-width: 258px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: 40px;
+}
+
+.page-title h2 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .app {
+    margin-top: 40px;
+  }
+
+  .page-title {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
